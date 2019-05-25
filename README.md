@@ -1,11 +1,11 @@
 # Maven Based Project
 
-Instance: AWS - Jenkins Server
+Instance: Jenkins Server (AWS)
 Build: Jenkins
 Port: 8080
-Link: PUBLIC-IP:8080/jenkins
+Link: ${PUBLIC-IP}:8080/jenkins
 
-Instance 2: AWS - Web Server
+Instance 2: Web Server (AWS)
 Deploy to Container: Tomcat
 Tomcat Port: 8090
-Link: PUBLIC-IP:8090/
+Link: ${PUBLIC-IP}:8090/
