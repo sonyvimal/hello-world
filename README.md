@@ -1,6 +1,6 @@
 # Maven Based Project
 
-Instance: Jenkins Server (AWS)
+Instance 1: Jenkins Server (AWS)
 Build: Jenkins
 Port: 8080
 Link: ${PUBLIC-IP}:8080/jenkins
